@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Information</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>User Information</h1>
+
+  <div id="user-info">
+    <p><strong>Latitude:</strong> <span id="latitude"></span></p>
+    <p><strong>Longitude:</strong> <span id="longitude"></span></p>
+    <p><strong>City:</strong> <span id="city"></span></p>
+    <p><strong>Region:</strong> <span id="region"></span></p>
+    <p><strong>Time Zone:</strong> <span id="timezone"></span></p>
+  </div>
+
+  <div id="map"></div>
+
+  <div id="post-offices">
+    <h2>Post Offices in Your Area</h2>
+    <input type="text" id="search-box" placeholder="Search post offices">
+    <ul id="post-office-list"></ul>
+  </div>
+
+  <button onclick="getData()">Get Data</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

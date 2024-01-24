@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(38, 41, 32);
+    text-align: center;
+    color: white;
+}
+
+input.placeholder{
+    margin: 10px;
+    padding: 10;
+    background: transparent;
+}
+button{
+    padding: 7px;
+    border-radius: 7px;
+    background-color: rgb(30, 174, 179);
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
